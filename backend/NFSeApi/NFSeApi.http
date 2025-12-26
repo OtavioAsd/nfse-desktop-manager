@@ -1,0 +1,6 @@
+@NFSeApi_HostAddress = http://localhost:5290
+
+GET {{NFSeApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
