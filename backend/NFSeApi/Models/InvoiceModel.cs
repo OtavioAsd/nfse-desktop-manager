@@ -10,5 +10,7 @@ public class InvoiceModels
 	public DateTime CreatedAt { get; set; }
 	public Decimal Price { get; set; }
 	public string Validation { get; set; }
+	public string PdfPath { get; set; }
+	public string Source { get; set; }
 
 }
