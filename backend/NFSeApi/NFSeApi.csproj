@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <Folder Include="Integrations\" />
-    <Folder Include="DTOs\" />
     <Folder Include="Config\" />
     <Folder Include="Services\" />
   </ItemGroup>

@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using NFSeApi.InvoiceModels;
+using NFSeApi.Entities;
 
 namespace NFSeApi.Data
 {
