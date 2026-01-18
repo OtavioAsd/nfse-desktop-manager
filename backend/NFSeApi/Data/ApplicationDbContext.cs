@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using NFSeApi.Models;
+using NFSeApi.InvoiceModels;
 
 namespace NFSeApi.Data
 {
@@ -10,6 +10,7 @@ namespace NFSeApi.Data
         {
         }
 
-        public DbSet<InvoiceModels> Invoices { get; set; }
+        public DbSet<NFSe> NFSes { get; set; }
     }
 }
+
