@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using NFSeApi.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
