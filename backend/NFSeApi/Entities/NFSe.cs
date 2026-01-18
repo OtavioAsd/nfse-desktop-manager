@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 
 namespace NFSeApi.Entities
@@ -24,5 +25,11 @@ namespace NFSeApi.Entities
         public bool Validate { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
+=======
+﻿namespace NFSeApi.InvoiceModels
+{
+    public class NFSe
+    {
+>>>>>>> d76cd1cece0b8c9694ba8ac96b4951feff5afa3b
     }
 }
