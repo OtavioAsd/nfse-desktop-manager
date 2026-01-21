@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿using System;
+using System;
 
 namespace NFSeApi.Entities
 {
@@ -10,26 +9,20 @@ namespace NFSeApi.Entities
         public string NFSeNumber { get; set; } = string.Empty;
         public string? AccessKey { get; set; }
 
-        public string ServiceRecipientName {  get; set; } = string.Empty;
+        public string ServiceRecipientName { get; set; } = string.Empty;
         public string ServiceRecipientCNPJ { get; set; } = string.Empty;
 
         public string ServiceProviderName { get; set; } = string.Empty;
         public string ServiceProviderCNPJ { get; set; } = string.Empty;
 
-        public decimal Price {  get; set; }
+        public decimal Price { get; set; }
         public DateTime IssuedDate { get; set; }
 
         public string Pdfpath { get; set; } = string.Empty;
 
-        public string Source {  get; set; } = string.Empty;
+        public string Source { get; set; } = string.Empty;
         public bool Validate { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
-=======
-﻿namespace NFSeApi.InvoiceModels
-{
-    public class NFSe
-    {
->>>>>>> d76cd1cece0b8c9694ba8ac96b4951feff5afa3b
     }
 }
