@@ -15,6 +15,6 @@ namespace NFSeApi.Dtos
         public DateTime IssueDate { get; set; }
         public decimal Price { get; set; }
 
-        public string PdfPath { get; set; }
+        public string PdfPath { get; set; } = string.Empty;
     }
 }

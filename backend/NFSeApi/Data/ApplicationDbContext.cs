@@ -8,7 +8,6 @@ namespace NFSeApi.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
-
         }
 
         public DbSet<NFSe> NFSes { get; set; }
