@@ -28,7 +28,7 @@ namespace NFSeApi.Services
                 ServiceRecipientCNPJ = dto.ServiceRecipientCNPJ,
                 ServiceProviderName = dto.ServiceProviderName,
                 ServiceProviderCNPJ = dto.ServiceProviderCNPJ,
-                IssuedDate = dto.IssueDate,
+                IssuedDate = DateTime.SpecifyKind(dto.IssueDate, DateTimeKind.Utc),
                 Price = dto.Price,
                 Pdfpath = dto.PdfPath,
                 Source = "Manual",
