@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using NFSeApi.Data;
+using NFSeApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,11 +10,22 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     )
 );
 
+builder.Services.AddScoped<NFSeService>();
+
 builder.Services.AddControllers();
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-app.UseHttpsRedirection();
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+// app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
