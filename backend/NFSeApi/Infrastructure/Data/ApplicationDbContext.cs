@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using NFSeApi.Entities;
+using NFSeApi.Domain.Entities;
 
-namespace NFSeApi.Data
+namespace NFSeApi.Infrastructure.Data
 {
     public class ApplicationDbContext : DbContext
     {

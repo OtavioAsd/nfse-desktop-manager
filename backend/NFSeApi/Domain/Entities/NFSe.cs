@@ -1,6 +1,6 @@
 using System;
 
-namespace NFSeApi.Entities
+namespace NFSeApi.Domain.Entities
 {
     public class NFSe
     {
